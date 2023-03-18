@@ -1,5 +1,5 @@
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 img {
@@ -15,6 +15,8 @@ img {
   z-index: 9;
   background-color: #f1f1f1;
   text-align: center;
+  top: 135px;
+  left: 981px;
 }
 
 #draggable:hover {
@@ -37,6 +39,8 @@ img {
   z-index: 9;
   background-color: #f1f1f1;
   text-align: center;
+  top: 87px;
+  left: 49px;
 }
 
 #draggable2:hover {
@@ -59,6 +63,8 @@ img {
   z-index: 9;
   background-color: #f1f1f1;
   text-align: center;
+  top: 271px;
+  left: 889px;
 }
 
 #draggable3:hover {
@@ -78,26 +84,28 @@ img {
 }
 
 #draggable4 {
-    position: absolute;
-    z-index: 9;
-    background-color: #f1f1f1;
-    text-align: center;
-  }
-  
-  #draggable4:hover {
-    z-index: 10;
-  }
-  
-  #draggableHeader4 {
-    cursor: move;
-    z-index: 10;
-    background-color: #dcdddf;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 10px;
-    align-items: center;
-  }
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  top: 204px;
+  left: 299px;
+}
+
+#draggable4:hover {
+  z-index: 10;
+}
+
+#draggableHeader4 {
+  cursor: move;
+  z-index: 10;
+  background-color: #dcdddf;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+}
 
 .categoria {
   display: flex;
@@ -128,15 +136,24 @@ img {
   height: 320px;
 }
 
-.fotoSpeak{
-    width: 360px;
-    height: 270px;
+.fotoSpeak {
+  width: 360px;
+  height: 270px;
 }
-.tom{
+.tom {
   width: 250px;
   height: 250px;
 }
 .iconuser {
   width: 20px;
   height: 20px;
+}
+
+@media (max-width: 479px) {
+  #draggable {
+    left: 0px;
+  }
+  body {
+    background-color: red;
+  }
 }
