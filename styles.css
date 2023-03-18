@@ -151,9 +151,28 @@ img {
 
 @media (max-width: 479px) {
   #draggable {
-    left: 0px;
+    top:77px;
+    left: 50px;
   }
-  body {
-    background-color: red;
+
+  #draggable2 {
+    top: 800px;
+    left: 10px;
+  }
+
+  #draggable3 {
+    top: 470px;
+    left: 50px;
+  }
+
+  #draggable4 {
+    top: 1050px;
+    left: 10px;
+  }
+  .fotoSpeak {
+    width: 320px;
+  }
+  .write {
+    width: 327px;
   }
 }
