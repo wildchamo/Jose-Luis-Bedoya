@@ -1,10 +1,21 @@
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 #draggable {
   position: absolute;
   z-index: 9;
   background-color: #f1f1f1;
   border: 1px solid #d3d3d3;
   text-align: center;
-  border-radius: 50px;
+}
+
+#draggable:hover {
+  z-index: 10;
 }
 
 #draggableHeader {
@@ -18,11 +29,83 @@
   align-items: center;
 }
 
+#draggable2 {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#draggable2:hover {
+  z-index: 10;
+}
+
+#draggableHeader2 {
+  cursor: move;
+  z-index: 10;
+  background-color: #dcdddf;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+#draggable3 {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#draggable3:hover {
+  z-index: 10;
+}
+
+#draggableHeader3 {
+  cursor: move;
+  z-index: 10;
+  background-color: #dcdddf;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+#draggable4 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #draggable4:hover {
+    z-index: 10;
+  }
+  
+  #draggableHeader4 {
+    cursor: move;
+    z-index: 10;
+    background-color: #dcdddf;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+  }
+
 .categoria {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 90px;
+}
+.categoria2 {
+  width: 60px;
 }
 
 .dot {
@@ -42,6 +125,11 @@
 .fotoJose {
   width: 240px;
   height: 320px;
+}
+
+.fotoSpeak{
+    width: 360px;
+    height: 270px;
 }
 .iconuser {
   width: 20px;
