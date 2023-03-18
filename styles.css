@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.headerDrag {
+#draggableHeader {
   padding: 10px;
   cursor: move;
   z-index: 10;
