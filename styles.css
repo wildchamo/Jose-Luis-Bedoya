@@ -4,12 +4,46 @@
   background-color: #f1f1f1;
   border: 1px solid #d3d3d3;
   text-align: center;
+  border-radius: 50px;
 }
 
 #draggableHeader {
-  padding: 10px;
   cursor: move;
   z-index: 10;
-  background-color: #2196f3;
-  color: #fff;
+  background-color: #dcdddf;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.categoria {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90px;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  background-color: #fa6150;
+  border-radius: 50%;
+  display: inline-block;
+}
+.yellow {
+  background-color: #ffbf30;
+}
+.green {
+  background-color: #29c93d;
+}
+
+.fotoJose {
+  width: 240px;
+  height: 320px;
+}
+.iconuser {
+  width: 20px;
+  height: 20px;
 }
