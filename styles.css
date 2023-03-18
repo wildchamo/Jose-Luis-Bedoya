@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  margin: 0px;
 }
 img {
   user-drag: none;
@@ -151,7 +152,7 @@ img {
 
 @media (max-width: 479px) {
   #draggable {
-    top:77px;
+    top: 77px;
     left: 50px;
   }
 
@@ -175,4 +176,17 @@ img {
   .write {
     width: 327px;
   }
+  footer {
+    display: none;
+  }
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  padding: 5px 0px;
+  font-size: 18px;
 }
