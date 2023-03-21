@@ -3,6 +3,7 @@ body {
   font-size: 14px;
   margin: 0px;
 }
+
 img {
   user-drag: none;
   -webkit-user-drag: none;
@@ -11,6 +12,7 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
 #draggable {
   position: absolute;
   z-index: 9;
@@ -114,6 +116,7 @@ img {
   justify-content: space-around;
   width: 90px;
 }
+
 .categoria2 {
   width: 60px;
 }
@@ -125,9 +128,11 @@ img {
   border-radius: 50%;
   display: inline-block;
 }
+
 .yellow {
   background-color: #ffbf30;
 }
+
 .green {
   background-color: #29c93d;
 }
@@ -141,41 +146,61 @@ img {
   width: 360px;
   height: 270px;
 }
+
 .tom {
   width: 250px;
   height: 250px;
 }
+
 .iconuser {
   width: 20px;
   height: 20px;
 }
 
 @media (max-width: 479px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+
   #draggable {
-    top: 77px;
-    left: 50px;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 240px;
   }
 
   #draggable2 {
-    top: 800px;
-    left: 10px;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 327px;
   }
 
   #draggable3 {
-    top: 470px;
-    left: 50px;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 250px;
   }
 
   #draggable4 {
-    top: 1050px;
-    left: 10px;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 320px;
   }
+
   .fotoSpeak {
     width: 320px;
   }
+
   .write {
     width: 327px;
   }
+
   footer {
     display: none;
   }
