@@ -13,15 +13,17 @@ img {
 }
 
 h1 {
-
   margin-left: 20px;
 }
 
-#draggable {
+.draggable {
   position: absolute;
   z-index: 9;
   background-color: #f1f1f1;
   text-align: center;
+}
+
+#draggable {
   top: 135px;
   left: 981px;
 }
@@ -42,10 +44,6 @@ h1 {
 }
 
 #draggable2 {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  text-align: center;
   top: 87px;
   left: 49px;
 }
@@ -54,22 +52,7 @@ h1 {
   z-index: 10;
 }
 
-#draggableHeader2 {
-  cursor: move;
-  z-index: 10;
-  background-color: #dcdddf;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
-  align-items: center;
-}
-
 #draggable3 {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  text-align: center;
   top: 271px;
   left: 889px;
 }
@@ -78,40 +61,13 @@ h1 {
   z-index: 10;
 }
 
-#draggableHeader3 {
-  cursor: move;
-  z-index: 10;
-  background-color: #dcdddf;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
-  align-items: center;
-  font-size: 12px;
-}
-
 #draggable4 {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  text-align: center;
   top: 204px;
   left: 299px;
 }
 
 #draggable4:hover {
   z-index: 10;
-}
-
-#draggableHeader4 {
-  cursor: move;
-  z-index: 10;
-  background-color: #dcdddf;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
-  align-items: center;
 }
 
 .categoria {
@@ -169,38 +125,30 @@ h1 {
     align-content: space-around;
   }
 
-  #draggable {
+  .draggable {
     position: relative;
     top: auto;
     left: auto;
+  }
+
+  #draggable {
     width: 240px;
     margin-bottom: 10px;
   }
 
   #draggable2 {
-    position: relative;
-    top: auto;
-    left: auto;
     width: 327px;
     margin-bottom: 10px;
   }
 
   #draggable3 {
-    position: relative;
-    top: auto;
-    left: auto;
     width: 250px;
     margin-bottom: 10px;
-
   }
 
   #draggable4 {
-    position: relative;
-    top: auto;
-    left: auto;
     width: 320px;
     margin-bottom: 10px;
-
   }
 
   .fotoSpeak {
@@ -214,7 +162,6 @@ h1 {
   footer {
     display: none;
   }
-
 }
 
 footer {
