@@ -125,31 +125,13 @@ h1 {
     align-content: space-around;
   }
 
-  .draggable {
-    position: relative;
+
+
+  #draggable,  #draggable2,  #draggable3,  #draggable4{
     top: auto;
     left: auto;
   }
 
-  #draggable {
-    width: 240px;
-    margin-bottom: 10px;
-  }
-
-  #draggable2 {
-    width: 327px;
-    margin-bottom: 10px;
-  }
-
-  #draggable3 {
-    width: 250px;
-    margin-bottom: 10px;
-  }
-
-  #draggable4 {
-    width: 320px;
-    margin-bottom: 10px;
-  }
 
   .fotoSpeak {
     width: 320px;
@@ -161,6 +143,10 @@ h1 {
 
   footer {
     display: none;
+  }
+
+  .draggable {
+    position: relative;
   }
 }
 
